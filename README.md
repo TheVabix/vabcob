@@ -1,2 +1,2 @@
 # vabcob
-ćwiczenai
+ćwiczenia
