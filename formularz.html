@@ -9,27 +9,47 @@
  <body>
 
 
-<p align="left"> <font color="black" size="1" face="Arial"> Formularz do Firmy Euro Truck Simulator 2 </font> <font color="black" size="30" face="Arial"> <strike> 30/2 </strike>  <br>
+<p align="left"> <font color="black" size="1" face="Arial"> Formularz do Firmy Euro Truck Simulator 2 </font> </p>
  <label for="opinia">Imię</label><br>
 <textarea id="opinia" name="opinia" rows="2" cols="30"></textarea><br><br>
 
  <label>Posiadane dodatki Map:</label><br>
-        <input type="radio" name="dlc" value="Iberia" checked> Iberia
-        <input type="radio" name="dlc" value="Roda to the balck sea"> Road to the black sea
-        <input type="radio" name="dlc" value="Italia"> Italia
-        <input type="radio" name="dlc" value="Scandinavia"> Scandinavia
-	<input type="radio" name="dlc" value="Italia"> Italia
-	<input type="radio" name="dlc" value="Beyond the baltic sea"> Beyond the baltic sea
-	<input type="radio" name="dlc" value="vive la France"> vive la France
-	<input type="radio" name="dlc" value="Going East"> Going East
+        <input type="checkbox" name="dlc" value="Iberia" checked> Iberia
+        <input type="checkbox" name="dlc" value="Roda to the balck sea"> Road to the black sea
+        <input type="checkbox" name="dlc" value="Italia"> Italia
+        <input type="checkbox" name="dlc" value="Scandinavia"> Scandinavia
+	<input type="checkbox" name="dlc" value="Italia"> Italia
+	<input type="checkbox" name="dlc" value="Beyond the baltic sea"> Beyond the baltic sea
+	<input type="checkbox" name="dlc" value="vive la France"> vive la France
+	<input type="checkbox" name="dlc" value="Going East"> Going East
 	
 	<br><br>
  <label for="opinia">Liczba przegranych godzin</label><br>
 <textarea id="opinia" name="opinia" rows="2" cols="30"></textarea><br><br>
 
+ <label>jak oceniasz swoje doświadczenie </label><br>
+        <input type="radio" name="doświadczenie" value="Początkujący" checked> Początkujący
+	<input type="radio" name="doświadczenie" value="średnie" checked> średnie
+	<input type="radio" name="doświadczenie" value="średnio zaawansowane" checked> średnio zaawansowane
+	<input type="radio" name="doświadczenie" value="weteran" checked> weteran
+
+ <label for="lista1">Wybierz swoją ulubioną ciężarówke</label><br>
+        <select id="lista1" name="kolor">
+            <option value="Scania">Scania</option>
+            <option value="Volvo">Volvo</option>
+            <option value="Man">Man</option>
+            <option value="Renault">Renault</option>
+            <option value="Scania" selected>Scania (domyślny)</option>
+        </select><br><br>
+<p align="left"> <font color="black" size="1" face="Arial"> Informacje opcjonalne </font> </p>
+ <input type="text" name="Nazwa poprzedniej firmy" placeholder="Pole 1"><br>
+        <input type="text" name="liczba członków" value="Tekst początkowy"><br>
+	<input type="text" name="inicjały poprzedniej firmy" maxlength="3" placeholder="Max 3 znaki"><br>
 
 
-	
+
+
+	 
 <a href="index.html"> strona głowna </a>
 		
 
