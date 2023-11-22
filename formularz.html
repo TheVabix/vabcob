@@ -12,7 +12,9 @@
 <p align="left"> <font color="black" size="1" face="Arial"> Formularz do Firmy Euro Truck Simulator 2 </font> </p>
  <label for="opinia">Imię</label><br>
 <textarea id="opinia" name="opinia" rows="2" cols="30"></textarea><br><br>
-
+<p align="left"> <font color="black" size="1" face="Arial"> Username </font> </p>
+ <input type="text" name="Nazwa poprzedniej firmy" placeholder="nick z gry"><br>
+	 
  <label>Posiadane dodatki Map:</label><br>
         <input type="checkbox" name="dlc" value="Iberia" checked> Iberia
         <input type="checkbox" name="dlc" value="Roda to the balck sea"> Road to the black sea
@@ -25,7 +27,7 @@
 	
 	<br><br>
  <label for="opinia">Liczba przegranych godzin</label><br>
-<textarea id="opinia" name="opinia" rows="2" cols="30"></textarea><br><br>
+ <input type="text" name="Nazwa poprzedniej firmy" placeholder="Godziny"><br>
 
  <label>jak oceniasz swoje doświadczenie </label><br>
         <input type="radio" name="doświadczenie" value="Początkujący" checked> Początkujący
@@ -33,18 +35,21 @@
 	<input type="radio" name="doświadczenie" value="średnio zaawansowane" checked> średnio zaawansowane
 	<input type="radio" name="doświadczenie" value="weteran" checked> weteran
 	<br>
- <label for="lista1">Wybierz swoją ulubioną ciężarówke</label><br>
+ <label for="lista1">Wcześniejsze firmy</label><br>
         <select id="lista1" name="kolor">
-            <option value="Scania">Scania</option>
-            <option value="Volvo">Volvo</option>
-            <option value="Man">Man</option>
-            <option value="Renault">Renault</option>
-            <option value="Scania" selected>Scania (domyślny)</option>
+            <option value="tak">Volvo</option>
+            <option value="Scania" selected>nie (domyślny)</option>
+ <label for="lista1">jeżeli tak to gdzie i doświadczenie z firmą</label><br>
+ <textarea id="opinia" name="opinia" rows="2" cols="30"></textarea>
         </select><br><br>
 <p align="left"> <font color="black" size="1" face="Arial"> Informacje opcjonalne </font> </p>
- <input type="text" name="Nazwa poprzedniej firmy" placeholder="Pole 1"><br>
-        <input type="text" name="liczba członków" value="Tekst początkowy"><br>
-	<input type="text" name="inicjały poprzedniej firmy" maxlength="3" placeholder="Max 3 znaki"><br>
+ <input type="text" name="na jaką range/obsade aspirujesz " placeholder="Pole 1"><br>
+       <textarea id="opinia" name="opinia" rows="2" cols="30"></textarea>
+	 <option value="Scania">administrator</option>
+	 <option value="Scania">pilot</option>
+	 <option value="Scania">wice admin</option>
+	 <option value="Scania">długodystansowiec</option>
+	 <option value="Scania" selected="">żółtodziub  (domyślny)</option>
 <input type="submit" value="Wyślij">
 <button type="button" onclick="document.querySelector('form').reset()">Czyść</button>
 
